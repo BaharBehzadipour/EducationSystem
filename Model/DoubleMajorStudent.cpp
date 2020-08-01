@@ -27,4 +27,34 @@ DoubleMajorStudent::DoubleMajorStudent(const std::string &studentId, std::string
      output<<student.major2<<endl;
       return output;
 }
-  std::istream& operator>>(std::istream & input, DoubleMajorStudent& student){}
+  std::istream& operator>>(std::istream & input, DoubleMajorStudent& student){
+      string id;
+      string first;
+      string last;
+      double wh;
+      vector<string> passed;
+      map<string, double> current;
+      int passedSize;
+      int currentSize;
+      string course;
+      double grade;
+      string SecondMajor;
+
+      input >> id >> first >> last >> wh >> passedSize;
+
+      for( size_t i{0}; i < passedSize; ++i ){
+          input >> course;
+          passed.push_back(course);
+      }
+
+      input >> currentSize;
+      for( size_t i{0}; i < currentSize; ++i ){
+          input >> course >> grade;
+          current.insert({course, grade});
+      }
+      input>>SecondMajor;
+      DoubleMajorStudent stu{id, first, last, wh, passed, current,SecondMajor};
+      student = stu;
+
+      return input;
+}
