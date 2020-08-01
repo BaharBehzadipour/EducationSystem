@@ -98,7 +98,7 @@ void LeafMenu::run() {
     }
 
     else if(name == "Read Members From Files"){
-
+        controller.ReadMembersFromFile();
     }
 
     else if(name == "Calculate Total Salary"){

@@ -1,4 +1,6 @@
 #ifndef TA_19_PERSON_H
+
+
 #define TA_19_PERSON_H
 
 #include <string>
@@ -16,7 +18,14 @@ public:
     Person(std::string firstName, std::string lastName, double workHours);
     Person() = default;
     virtual ~Person() = default;
-    virtual double calculateSalary() const = 0;   // pure virtual function
+    virtual double calculateSalary() const = 0;
+
+    void setFirstName(const std::string &firstName);
+
+    void setLastName(const std::string &lastName);
+
+    void setWorkHours(double workHours);
+    // pure virtual function
 };
 
 

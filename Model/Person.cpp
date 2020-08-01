@@ -17,3 +17,15 @@ const std::string &Person::getLastName() const {
 double Person::getWorkHours() const {
     return workHours;
 }
+
+void Person::setFirstName(const string &firstName) {
+    Person::firstName = firstName;
+}
+
+void Person::setLastName(const string &lastName) {
+    Person::lastName = lastName;
+}
+
+void Person::setWorkHours(double workHours) {
+    Person::workHours = workHours;
+}

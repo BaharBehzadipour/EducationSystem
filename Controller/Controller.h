@@ -5,6 +5,7 @@
 #include <vector>
 #include "../Model/Student.h"
 #include "../Model/Professor.h"
+#include "../Model/DoubleMajorStudent.h"
 #include "../Model/Course.h"
 
 class Controller {
@@ -32,7 +33,7 @@ public:
     void takeCourse(const std::string& studentID, const std::string& courseName);
     Student& findStudent(std::string ID);
     void DropCourse(const std::string& studentID, const std::string& courseName);
-
+    void ReadMembersFromFile();
 
     bool inStudents(const std::string& ID) const;
     bool inProfessors(const std::string& ID) const;
