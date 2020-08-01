@@ -1,0 +1,6 @@
+P 195 Saman Bahrami Prof 45
+S 982023007 Reza Kiani 14
+S 972023012 Maryam Motahari 19.5
+S 982023017 Hamid Samavat 15.25
+D 982023021 Babak Kasrayi 7.3
+P 201 Arash Moghadam Assistant 31

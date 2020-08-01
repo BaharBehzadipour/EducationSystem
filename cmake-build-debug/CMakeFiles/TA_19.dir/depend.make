@@ -11,6 +11,11 @@ CMakeFiles/TA_19.dir/Controller/Controller.cpp.o: ../Model/Student.h
 CMakeFiles/TA_19.dir/Model/Course.cpp.o: ../Model/Course.cpp
 CMakeFiles/TA_19.dir/Model/Course.cpp.o: ../Model/Course.h
 
+CMakeFiles/TA_19.dir/Model/DoubleMajorStudent.cpp.o: ../Model/DoubleMajorStudent.cpp
+CMakeFiles/TA_19.dir/Model/DoubleMajorStudent.cpp.o: ../Model/DoubleMajorStudent.h
+CMakeFiles/TA_19.dir/Model/DoubleMajorStudent.cpp.o: ../Model/Person.h
+CMakeFiles/TA_19.dir/Model/DoubleMajorStudent.cpp.o: ../Model/Student.h
+
 CMakeFiles/TA_19.dir/Model/Person.cpp.o: ../Model/Person.cpp
 CMakeFiles/TA_19.dir/Model/Person.cpp.o: ../Model/Person.h
 

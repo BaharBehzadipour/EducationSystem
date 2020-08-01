@@ -97,6 +97,14 @@ void LeafMenu::run() {
 
     }
 
+    else if(name == "Read Members From Files"){
+
+    }
+
+    else if(name == "Calculate Total Salary"){
+
+    }
+
     else{
         throw invalid_argument("This Menu hase not been defined!!");
     }

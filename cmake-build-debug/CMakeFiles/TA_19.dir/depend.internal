@@ -11,6 +11,11 @@ CMakeFiles/TA_19.dir/Controller/Controller.cpp.o
 CMakeFiles/TA_19.dir/Model/Course.cpp.o
  /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Course.cpp
  /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Course.h
+CMakeFiles/TA_19.dir/Model/DoubleMajorStudent.cpp.o
+ /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/DoubleMajorStudent.cpp
+ /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/DoubleMajorStudent.h
+ /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.h
+ /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.h
 CMakeFiles/TA_19.dir/Model/Person.cpp.o
  /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.cpp
  /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.h
