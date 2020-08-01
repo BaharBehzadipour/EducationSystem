@@ -11,6 +11,7 @@ public:
     virtual void run() override;
 static void ShowSemesterCourses();
 static void ShowStudentSemesterCourses(std::string id);
+     double CalculateStudentSalary(std::string id);
 };
 
 
