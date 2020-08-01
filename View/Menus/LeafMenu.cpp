@@ -11,11 +11,18 @@ void LeafMenu::run() {
     setCurrentMenu(parent);
 
     if(name == "Show This Semester Courses"){
-
+       ShowSemesterCourses();
     }
 
     else if(name == "Take Course"){
+        string ID;
+        cout << "Enter student number: ";
+        cin >> ID;
+        string CourseName;
+        cout << "Enter courseName: ";
+        cin >> CourseName;
 
+        controller.takeCourse(ID,CourseName);
     }
 
     else if(name == "Drop Course"){

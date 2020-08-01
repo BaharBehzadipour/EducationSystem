@@ -131,6 +131,16 @@ bool Controller:: inProfessorsByLastName(const std::string& last) const{
     return false;
 }
 
+bool Controller::inCurrentSemesterCourses(const std::string& currentSemesterCoursesName) const{
+
+    for( const auto& crs : currentSemesterCourses ){
+        if( crs.courseName == currentSemesterCoursesName){
+            return true;
+        }
+    }
+    return false;
+}
+
 Student& Controller:: findStudent(string ID){
     for( auto& stu : students ){
         if(stu.studentId == ID){
@@ -143,5 +153,12 @@ Student& Controller:: findStudent(string ID){
 void Controller:: takeCourse(const std::string& studentID, const std::string& courseName){
     if(inCourses(courseName)){
         findStudent(studentID).currentSemesterCourses.insert({courseName, 0});
+    }
+}
+
+void Controller::DropCourse(const std::string& studentID, const std::string& courseName){
+
+    if(inCurrentSemesterCourses(courseName)){
+        findStudent(studentID).currentSemesterCourses.erase({courseName});
     }
 }

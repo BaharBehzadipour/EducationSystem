@@ -30,12 +30,13 @@ public:
             std::vector<std::string> pre);
     void takeCourse(const std::string& studentID, const std::string& courseName);
     Student& findStudent(std::string ID);
-
+    void DropCourse(const std::string& studentID, const std::string& courseName);
 
     bool inStudents(const std::string& ID) const;
     bool inProfessors(const std::string& ID) const;
     bool inProfessorsByLastName(const std::string& last) const;
     bool inCourses(const std::string& courseName) const;
+    bool inCurrentSemesterCourses(const std::string& courseName) const;
 };
 
 
