@@ -15,6 +15,14 @@ vector
 -
 map
 -
+iostream
+-
+sstream
+-
+iterator
+-
+stdexcept
+-
 
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.h
 string
@@ -25,6 +33,8 @@ vector
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.h
 ../Model/Professor.h
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Professor.h
+../Model/DoubleMajorStudent.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/DoubleMajorStudent.h
 ../Model/Course.h
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Course.h
 
@@ -42,9 +52,17 @@ DoubleMajorStudent.h
 Student.h
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.h
 
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.cpp
+Person.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.h
+
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.h
 string
 -
+
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Professor.cpp
+Professor.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Professor.h
 
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Professor.h
 string

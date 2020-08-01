@@ -102,7 +102,7 @@ void LeafMenu::run() {
     }
 
     else if(name == "Calculate Total Salary"){
-
+     cout<<"total salary is: "<< controller.CalculateTotalSalary();
     }
 
     else{

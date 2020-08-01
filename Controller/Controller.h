@@ -12,6 +12,7 @@ class Controller {
     friend class LeafMenu;
     friend class Menu;
     friend class CommandsFromFileMenu;
+
 private:
     std::string currentSemester;
     std::vector<Student> students;
@@ -29,11 +30,12 @@ public:
     void addStudent(std::string ID, std::string first, std::string last);
     void addProfessor(std::string ID, std::string first, std::string last, std::string title);
     void addCourse(std::string courseName, std::string profLast, std::string semester,
-            std::vector<std::string> pre);
+                   std::vector<std::string> pre);
     void takeCourse(const std::string& studentID, const std::string& courseName);
     Student& findStudent(std::string ID);
     void DropCourse(const std::string& studentID, const std::string& courseName);
     void ReadMembersFromFile();
+    double CalculateTotalSalary();
 
     bool inStudents(const std::string& ID) const;
     bool inProfessors(const std::string& ID) const;

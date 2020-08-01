@@ -194,6 +194,7 @@ void Controller::ReadMembersFromFile(){
         }
         if(results[0]=="D"){
             int num;
+            num = stoi(results[4]);
             DoubleMajorStudent Dtemp;
             Dtemp.setStudentId(results[1]);
             Dtemp.setLastName(results[3]);
@@ -202,4 +203,12 @@ void Controller::ReadMembersFromFile(){
             mathClass.push_back(&Dtemp);
         }
     }
+}
+
+double Controller::CalculateTotalSalary(){
+    double sum=0;
+    for(int i=0;i<mathClass.size();++i){
+    sum=sum+mathClass[i]->calculateSalary();
+    }
+    return sum;
 }

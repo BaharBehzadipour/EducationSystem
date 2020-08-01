@@ -4,6 +4,7 @@
 CMakeFiles/TA_19.dir/Controller/Controller.cpp.o: ../Controller/Controller.cpp
 CMakeFiles/TA_19.dir/Controller/Controller.cpp.o: ../Controller/Controller.h
 CMakeFiles/TA_19.dir/Controller/Controller.cpp.o: ../Model/Course.h
+CMakeFiles/TA_19.dir/Controller/Controller.cpp.o: ../Model/DoubleMajorStudent.h
 CMakeFiles/TA_19.dir/Controller/Controller.cpp.o: ../Model/Person.h
 CMakeFiles/TA_19.dir/Controller/Controller.cpp.o: ../Model/Professor.h
 CMakeFiles/TA_19.dir/Controller/Controller.cpp.o: ../Model/Student.h
@@ -29,6 +30,7 @@ CMakeFiles/TA_19.dir/Model/Student.cpp.o: ../Model/Student.h
 
 CMakeFiles/TA_19.dir/View/Menus/CommandsFromFileMenu.cpp.o: ../Controller/Controller.h
 CMakeFiles/TA_19.dir/View/Menus/CommandsFromFileMenu.cpp.o: ../Model/Course.h
+CMakeFiles/TA_19.dir/View/Menus/CommandsFromFileMenu.cpp.o: ../Model/DoubleMajorStudent.h
 CMakeFiles/TA_19.dir/View/Menus/CommandsFromFileMenu.cpp.o: ../Model/Person.h
 CMakeFiles/TA_19.dir/View/Menus/CommandsFromFileMenu.cpp.o: ../Model/Professor.h
 CMakeFiles/TA_19.dir/View/Menus/CommandsFromFileMenu.cpp.o: ../Model/Student.h
@@ -38,6 +40,7 @@ CMakeFiles/TA_19.dir/View/Menus/CommandsFromFileMenu.cpp.o: ../View/Menus/Menu.h
 
 CMakeFiles/TA_19.dir/View/Menus/InternalMenu.cpp.o: ../Controller/Controller.h
 CMakeFiles/TA_19.dir/View/Menus/InternalMenu.cpp.o: ../Model/Course.h
+CMakeFiles/TA_19.dir/View/Menus/InternalMenu.cpp.o: ../Model/DoubleMajorStudent.h
 CMakeFiles/TA_19.dir/View/Menus/InternalMenu.cpp.o: ../Model/Person.h
 CMakeFiles/TA_19.dir/View/Menus/InternalMenu.cpp.o: ../Model/Professor.h
 CMakeFiles/TA_19.dir/View/Menus/InternalMenu.cpp.o: ../Model/Student.h
@@ -47,6 +50,7 @@ CMakeFiles/TA_19.dir/View/Menus/InternalMenu.cpp.o: ../View/Menus/Menu.h
 
 CMakeFiles/TA_19.dir/View/Menus/LeafMenu.cpp.o: ../Controller/Controller.h
 CMakeFiles/TA_19.dir/View/Menus/LeafMenu.cpp.o: ../Model/Course.h
+CMakeFiles/TA_19.dir/View/Menus/LeafMenu.cpp.o: ../Model/DoubleMajorStudent.h
 CMakeFiles/TA_19.dir/View/Menus/LeafMenu.cpp.o: ../Model/Person.h
 CMakeFiles/TA_19.dir/View/Menus/LeafMenu.cpp.o: ../Model/Professor.h
 CMakeFiles/TA_19.dir/View/Menus/LeafMenu.cpp.o: ../Model/Student.h
@@ -56,6 +60,7 @@ CMakeFiles/TA_19.dir/View/Menus/LeafMenu.cpp.o: ../View/Menus/Menu.h
 
 CMakeFiles/TA_19.dir/View/Menus/Menu.cpp.o: ../Controller/Controller.h
 CMakeFiles/TA_19.dir/View/Menus/Menu.cpp.o: ../Model/Course.h
+CMakeFiles/TA_19.dir/View/Menus/Menu.cpp.o: ../Model/DoubleMajorStudent.h
 CMakeFiles/TA_19.dir/View/Menus/Menu.cpp.o: ../Model/Person.h
 CMakeFiles/TA_19.dir/View/Menus/Menu.cpp.o: ../Model/Professor.h
 CMakeFiles/TA_19.dir/View/Menus/Menu.cpp.o: ../Model/Student.h
@@ -64,6 +69,7 @@ CMakeFiles/TA_19.dir/View/Menus/Menu.cpp.o: ../View/Menus/Menu.h
 
 CMakeFiles/TA_19.dir/View/View.cpp.o: ../Controller/Controller.h
 CMakeFiles/TA_19.dir/View/View.cpp.o: ../Model/Course.h
+CMakeFiles/TA_19.dir/View/View.cpp.o: ../Model/DoubleMajorStudent.h
 CMakeFiles/TA_19.dir/View/View.cpp.o: ../Model/Person.h
 CMakeFiles/TA_19.dir/View/View.cpp.o: ../Model/Professor.h
 CMakeFiles/TA_19.dir/View/View.cpp.o: ../Model/Student.h
@@ -76,6 +82,7 @@ CMakeFiles/TA_19.dir/View/View.cpp.o: ../View/View.h
 
 CMakeFiles/TA_19.dir/main.cpp.o: ../Controller/Controller.h
 CMakeFiles/TA_19.dir/main.cpp.o: ../Model/Course.h
+CMakeFiles/TA_19.dir/main.cpp.o: ../Model/DoubleMajorStudent.h
 CMakeFiles/TA_19.dir/main.cpp.o: ../Model/Person.h
 CMakeFiles/TA_19.dir/main.cpp.o: ../Model/Professor.h
 CMakeFiles/TA_19.dir/main.cpp.o: ../Model/Student.h
