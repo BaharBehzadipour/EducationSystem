@@ -1,5 +1,5 @@
 6
-952023016	Farhang	Doroudian	0	0	0	
+952023016	Farhang	Doroudian	2	0	1	math	0	
 952023017	Alireza	Akhavan	0	0	0	
 952023018	Sara	Goli	0	0	0	
 952023019	Babak	Moghtader	0	0	0	

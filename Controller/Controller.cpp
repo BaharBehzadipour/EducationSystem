@@ -6,6 +6,7 @@
 #include <sstream>
 #include <iterator>
 #include <stdexcept>
+
 using namespace std;
 
 Controller::Controller(std::string currentSemester)
@@ -177,29 +178,33 @@ void Controller::ReadMembersFromFile(){
     vector<string> results{istream_iterator<string>{iss}, istream_iterator<string>()};
 
     if(results[0]=="P"){
-        int num;
-        num = stoi(results[5]);
-        Professor Ptemp{results[1],results[2],results[3],(double)num,results[4]};
+        double num;
+        std::string ::size_type sz;
+        num = stod(results[5],&sz);
+
+        Professor Ptemp{results[1],results[2],results[3],num,results[4]};
         mathClass.push_back(&Ptemp);
     }
         if(results[0]=="S"){
-            int num;
-            num = stoi(results[4]);
+           double num;
+           std::string ::size_type sz;
+            num = stod(results[4],&sz);
             Student Stemp;
             Stemp.setStudentId(results[1]);
             Stemp.setFirstName(results[2]);
             Stemp.setLastName(results[3]);
-            Stemp.setWorkHours((double)num);
+            Stemp.setWorkHours(num);
             mathClass.push_back(&Stemp);
         }
         if(results[0]=="D"){
-            int num;
-            num = stoi(results[4]);
+            double num;
+            std::string ::size_type sz;
+            num = stod(results[4],&sz);
             DoubleMajorStudent Dtemp;
             Dtemp.setStudentId(results[1]);
             Dtemp.setLastName(results[3]);
             Dtemp.setFirstName(results[2]);
-            Dtemp.setWorkHours((double)num);
+            Dtemp.setWorkHours(num);
             mathClass.push_back(&Dtemp);
         }
     }

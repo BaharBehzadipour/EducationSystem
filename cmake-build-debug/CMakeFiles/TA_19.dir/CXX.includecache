@@ -6,24 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.cpp
-Controller.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.h
-fstream
--
-vector
--
-map
--
-iostream
--
-sstream
--
-iterator
--
-stdexcept
--
-
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.h
 string
 -
@@ -44,25 +26,13 @@ string
 vector
 -
 
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/DoubleMajorStudent.cpp
-DoubleMajorStudent.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/DoubleMajorStudent.h
-
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/DoubleMajorStudent.h
 Student.h
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.h
 
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.cpp
-Person.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.h
-
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.h
 string
 -
-
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Professor.cpp
-Professor.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Professor.h
 
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Professor.h
 string
@@ -71,16 +41,6 @@ iostream
 -
 Person.h
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.h
-
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.cpp
-Student.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.h
-regex
--
-stdexcept
--
-sstream
--
 
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.h
 Person.h
@@ -93,42 +53,6 @@ vector
 -
 map
 -
-
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/CommandsFromFileMenu.cpp
-CommandsFromFileMenu.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/CommandsFromFileMenu.h
-iostream
--
-fstream
--
-sstream
--
-iterator
--
-stdexcept
--
-
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/CommandsFromFileMenu.h
-string
--
-Menu.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.h
-../../Controller/Controller.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.h
-
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/InternalMenu.cpp
-iostream
--
-stdexcept
--
-InternalMenu.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/InternalMenu.h
-
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/InternalMenu.h
-string
--
-Menu.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.h
 
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/LeafMenu.cpp
 LeafMenu.h
@@ -144,10 +68,6 @@ string
 Menu.h
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.h
 
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.cpp
-Menu.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.h
-
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.h
 string
 -
@@ -155,24 +75,4 @@ vector
 -
 ../../Controller/Controller.h
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.h
-
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/View.cpp
-stdexcept
--
-View.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/View.h
-
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/View.h
-../Controller/Controller.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.h
-Menus/InternalMenu.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/InternalMenu.h
-Menus/CommandsFromFileMenu.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/CommandsFromFileMenu.h
-Menus/LeafMenu.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/LeafMenu.h
-
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/main.cpp
-View/View.h
-/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/View.h
 
