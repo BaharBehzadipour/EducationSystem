@@ -46,6 +46,16 @@ iostream
 Person.h
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.h
 
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.cpp
+Student.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.h
+regex
+-
+stdexcept
+-
+sstream
+-
+
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.h
 Person.h
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.h
@@ -97,6 +107,10 @@ Menu.h
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/LeafMenu.cpp
 LeafMenu.h
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/LeafMenu.h
+sstream
+-
+../../Controller/Controller.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.h
 
 /cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/LeafMenu.h
 string

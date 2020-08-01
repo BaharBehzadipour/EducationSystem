@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TA_19.dir/Controller/Controller.cpp.o"
   "CMakeFiles/TA_19.dir/Model/Course.cpp.o"
-  "CMakeFiles/TA_19.dir/Model/DoubleMajorStudent.cpp.o"
   "CMakeFiles/TA_19.dir/Model/Person.cpp.o"
   "CMakeFiles/TA_19.dir/Model/Professor.cpp.o"
   "CMakeFiles/TA_19.dir/Model/Student.cpp.o"
