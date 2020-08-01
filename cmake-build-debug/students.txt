@@ -1,7 +1,7 @@
 6
 952023016	Farhang	Doroudian	2	0	1	math	0	
-952023017	Alireza	Akhavan	0	0	0	
-952023018	Sara	Goli	0	0	0	
-952023019	Babak	Moghtader	0	0	0	
-952023020	Said	Ghorbani	0	0	0	
-952013018	Jamshid	Salehi	0	0	0	
+952023017	Alireza	Akhavan	3	0	2	math	0	physics	0	
+952023018	Sara	Goli	16	0	1	ap	0	
+952023019	Babak	Moghtader	11	0	1	ap	0	
+952023020	Said	Ghorbani	5	0	0	
+952013018	Jamshid	Salehi	2.5	0	2	ap	0	physics	0	
