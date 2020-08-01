@@ -9,6 +9,7 @@
 
 class Student : public Person {
     friend class Controller;
+    friend class LeafMenu;
     friend std::ostream& operator<<(std::ostream & output, const Student& student);
     friend std::istream& operator>>(std::istream & input, Student& student);
 private:

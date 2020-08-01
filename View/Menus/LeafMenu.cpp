@@ -1,4 +1,6 @@
 #include "LeafMenu.h"
+#include <sstream>
+#include "../../Controller/Controller.h"
 
 using namespace std;
 
@@ -26,11 +28,20 @@ void LeafMenu::run() {
     }
 
     else if(name == "Drop Course"){
-
+        string ID;
+        cout << "Enter student number: ";
+        cin >> ID;
+        string CourseName;
+        cout << "Enter courseName: ";
+        cin >> CourseName;
+       controller.DropCourse(ID,CourseName);
     }
 
     else if(name == "Show Student Courses In Current Semester"){
-
+        string ID;
+        cout << "Enter student number: ";
+        cin >> ID;
+        ShowStudentSemesterCourses(ID);
     }
 
     else if(name == "Calculate Student Salary"){
@@ -92,4 +103,11 @@ void LeafMenu::ShowSemesterCourses() {
         cout<<crs.toString()<<endl;
     }
 
+}
+
+void LeafMenu::ShowStudentSemesterCourses(std::string id){
+    cout<<"current semester courses for " << controller.findStudent(id).getFirstName()
+        <<" "<<controller.findStudent(id).getLastName()<<"are :  ";
+        for(const auto& item : controller.findStudent(id).currentSemesterCourses)
+            cout <<item.first << '\t' ;
 }

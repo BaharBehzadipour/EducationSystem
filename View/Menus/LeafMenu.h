@@ -10,6 +10,7 @@ public:
     virtual void showSubMenus() const override;
     virtual void run() override;
 static void ShowSemesterCourses();
+static void ShowStudentSemesterCourses(std::string id);
 };
 
 
