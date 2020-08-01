@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/Controller/Controller.cpp
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.cpp
 Controller.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/Controller/Controller.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.h
 fstream
 -
 vector
@@ -16,39 +16,47 @@ vector
 map
 -
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/Controller/Controller.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.h
 string
 -
 vector
 -
 ../Model/Student.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Student.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.h
 ../Model/Professor.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Professor.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Professor.h
 ../Model/Course.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Course.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Course.h
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Course.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Course.cpp
+Course.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Course.h
+iostream
+-
+sstream
+-
+
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Course.h
 string
 -
 vector
 -
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Person.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.h
 string
 -
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Professor.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Professor.h
 string
 -
 iostream
 -
 Person.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Person.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.h
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Student.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.h
 Person.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Person.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.h
 iostream
 -
 string
@@ -58,9 +66,9 @@ vector
 map
 -
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/CommandsFromFileMenu.cpp
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/CommandsFromFileMenu.cpp
 CommandsFromFileMenu.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/CommandsFromFileMenu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/CommandsFromFileMenu.h
 iostream
 -
 fstream
@@ -72,67 +80,67 @@ iterator
 stdexcept
 -
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/CommandsFromFileMenu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/CommandsFromFileMenu.h
 string
 -
 Menu.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/Menu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.h
 ../../Controller/Controller.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/Controller/Controller.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.h
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/InternalMenu.cpp
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/InternalMenu.cpp
 iostream
 -
 stdexcept
 -
 InternalMenu.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/InternalMenu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/InternalMenu.h
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/InternalMenu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/InternalMenu.h
 string
 -
 Menu.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/Menu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.h
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/LeafMenu.cpp
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/LeafMenu.cpp
 LeafMenu.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/LeafMenu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/LeafMenu.h
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/LeafMenu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/LeafMenu.h
 string
 -
 Menu.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/Menu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.h
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/Menu.cpp
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.cpp
 Menu.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/Menu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.h
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/Menu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.h
 string
 -
 vector
 -
 ../../Controller/Controller.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/Controller/Controller.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.h
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/View.cpp
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/View.cpp
 stdexcept
 -
 View.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/View.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/View.h
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/View.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/View.h
 ../Controller/Controller.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/Controller/Controller.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.h
 Menus/InternalMenu.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/InternalMenu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/InternalMenu.h
 Menus/CommandsFromFileMenu.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/CommandsFromFileMenu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/CommandsFromFileMenu.h
 Menus/LeafMenu.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/LeafMenu.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/LeafMenu.h
 
-/cygdrive/c/Users/User/CLionProjects/TA 19/main.cpp
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/main.cpp
 View/View.h
-/cygdrive/c/Users/User/CLionProjects/TA 19/View/View.h
+/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/View.h
 

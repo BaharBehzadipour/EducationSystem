@@ -8,6 +8,7 @@
 #include "../Model/Course.h"
 
 class Controller {
+    friend class LeafMenu;
     friend class Menu;
     friend class CommandsFromFileMenu;
 private:

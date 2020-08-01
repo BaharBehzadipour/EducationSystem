@@ -8,142 +8,142 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TA_19">
-				<Option output="/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug/TA_19.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/TA_19.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.2.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.2.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.2.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.2.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 TA_19"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 TA_19"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TA_19/fast">
-				<Option output="/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug/TA_19.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/TA_19.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.2.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.2.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.2.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.2.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 TA_19/fast"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 TA_19/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/User/CLionProjects/TA\ 19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pars/CLionProjects/EducationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/Controller/Controller.cpp">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.cpp">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/Controller/Controller.h">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Controller/Controller.h">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Course.cpp">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Course.cpp">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Course.h">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Course.h">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Person.cpp">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.cpp">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Person.h">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Person.h">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Professor.cpp">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Professor.cpp">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Professor.h">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Professor.h">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Student.cpp">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.cpp">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Student.h">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/Model/Student.h">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/CommandsFromFileMenu.cpp">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/CommandsFromFileMenu.cpp">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/CommandsFromFileMenu.h">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/CommandsFromFileMenu.h">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/InternalMenu.cpp">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/InternalMenu.cpp">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/InternalMenu.h">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/InternalMenu.h">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/LeafMenu.cpp">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/LeafMenu.cpp">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/LeafMenu.h">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/LeafMenu.h">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/Menu.cpp">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.cpp">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/Menu.h">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/Menus/Menu.h">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/View/View.cpp">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/View.cpp">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/View/View.h">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/View/View.h">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/main.cpp">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/main.cpp">
 			<Option target="TA_19"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/User/CLionProjects/TA 19/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/pars/CLionProjects/EducationSystem/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

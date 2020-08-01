@@ -39,6 +39,7 @@ void CommandsFromFileMenu::run() {
                 processAddCourse(results);
 
             } else if (results[0] == "take" && results[1] == "course") {
+                controller.takeCourse(results[2],results[3]);
 
             } else if (results[0] == "show" && results[1] == "students") {
                 showStudents();

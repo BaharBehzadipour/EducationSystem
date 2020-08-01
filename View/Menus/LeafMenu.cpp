@@ -79,3 +79,10 @@ void LeafMenu::run() {
         throw invalid_argument("This Menu hase not been defined!!");
     }
 }
+
+void LeafMenu::ShowSemesterCourses() {
+    for(const auto & crs : controller.currentSemesterCourses){
+        cout<<crs.toString()<<endl;
+    }
+
+}
