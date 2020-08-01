@@ -58,3 +58,7 @@ DoubleMajorStudent::DoubleMajorStudent(const std::string &studentId, std::string
 
       return input;
 }
+
+double DoubleMajorStudent::calculateSalary() const {
+    return 6500 * getWorkHours();
+}

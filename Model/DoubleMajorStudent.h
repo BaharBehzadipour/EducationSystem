@@ -19,6 +19,8 @@ public:
             std::vector<std::string> passedCourses, std::map<std::string
             , double> currentSemesterCourses,std::string major2);
 
+    virtual double calculateSalary() const override;
+
 
 };
 
